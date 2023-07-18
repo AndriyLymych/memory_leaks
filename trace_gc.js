@@ -1,5 +1,6 @@
 let k = 0;
 let collection = {};
+console.log(gc);
 
 const timer = setInterval(() => {
   k++;

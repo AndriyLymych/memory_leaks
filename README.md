@@ -39,11 +39,9 @@ All memory in node:
 
 можно ключами командной строки выключить автоматический сборщик мусора и вызывать его самому, по мере необходимости:
 
-node --nouse-idle-notification --expose-gc program.js
+node --expose-gc program.js
 
 Теперь в глобале появится функция gc(), которую нужно вызывать.
-
-node --expose-gc program.js - node call gc by itself
 
 node --trace_gc file.js - look when node call gc
 

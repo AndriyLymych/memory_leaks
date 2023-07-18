@@ -1,6 +1,7 @@
 const memory = [];
 let k = 0;
 const bytesToMb = (bytes) => Math.round(bytes / 1000, 2) / 1000;
+console.log(gc);
 let collection = {};
 
 const timer = setInterval(() => {
